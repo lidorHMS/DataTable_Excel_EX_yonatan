@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jBoOXf6qBM5BdjGiXxGQ8a1DHWgUrmJzO6o9fZJLiWO975TXyCcRhIq8MA3s6YV/dT9ez9ZKsd+UQJ6ZqpTVTg==",
+  "dgSpecHash": "HFc4TOt7n0pysnFOFLLUn/HmtAgK6/2mt1ljdqbFRnbGwy4NPCx6uULJRn7EGPfzPt5uSah5SZosqW0Bq41GeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lidorm\\Documents\\uiPath\\DataTable_Excel_EX\\.local\\",
+  "projectFilePath": "C:\\Users\\lidorm\\Documents\\uiPath\\DataTable_Excel_EX_yonatan\\process 2 - Creates_Output_File\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\lidorm\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\lidorm\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
     "C:\\Users\\lidorm\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
+    "C:\\Users\\lidorm\\.nuget\\packages\\get_hash_sha1.online\\1.0.1\\get_hash_sha1.online.1.0.1.nupkg.sha512",
     "C:\\Users\\lidorm\\.nuget\\packages\\google.apis\\1.55.0\\google.apis.1.55.0.nupkg.sha512",
     "C:\\Users\\lidorm\\.nuget\\packages\\google.apis.auth\\1.55.0\\google.apis.auth.1.55.0.nupkg.sha512",
     "C:\\Users\\lidorm\\.nuget\\packages\\google.apis.calendar.v3\\1.55.0.2554\\google.apis.calendar.v3.1.55.0.2554.nupkg.sha512",

@@ -1,6 +1,6 @@
 {
-  "name": "Create_Sheets",
-  "description": "this process creates the output file,\r\nuses the data table extracted to excel file",
+  "name": "DataTable_Excel_EX",
+  "description": "",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -46,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "6d0be5e0-9d3d-4713-a678-9dc121fb84b3",
+      "uniqueId": "403188be-5e43-4b5d-bfc9-a59132888bae",
       "input": [],
       "output": []
     }

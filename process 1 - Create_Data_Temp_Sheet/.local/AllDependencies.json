@@ -8415,11 +8415,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Create_Sheets",
-      "projectName": "Create_Sheets",
-      "projectPath": "C:\\Users\\lidorm\\Documents\\uiPath\\DataTable_Excel_EX\\Create_Sheets\\.local",
+      "projectUniqueName": "DataTable_Excel_EX",
+      "projectName": "DataTable_Excel_EX",
+      "projectPath": "C:\\Users\\lidorm\\Documents\\uiPath\\DataTable_Excel_EX_yonatan\\process 2 - Creates_Output_File\\.local",
       "packagesPath": "C:\\Users\\lidorm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lidorm\\Documents\\uiPath\\DataTable_Excel_EX\\Create_Sheets\\.local"
+      "outputPath": "C:\\Users\\lidorm\\Documents\\uiPath\\DataTable_Excel_EX_yonatan\\process 2 - Creates_Output_File\\.local"
     },
     "frameworks": {
       "net461": {

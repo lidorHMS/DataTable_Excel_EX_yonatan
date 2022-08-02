@@ -36,6 +36,30 @@
           "lib/DocumentFormat.OpenXml.dll": {}
         }
       },
+      "Get_Hash_SHA1.online/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.Excel.Activities": "2.12.3",
+          "UiPath.Mail.Activities": "1.15.2",
+          "UiPath.System.Activities": "22.4.1",
+          "UiPath.UIAutomation.Activities": "22.4.5"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Get_Hash_SHA1 online_Library.dll": {},
+          "lib/net45/Get_Hash_SHA1 online_Library_Expressions_40196552.dll": {},
+          "lib/net45/Get_Hash_SHA1 online_Library_Expressions_56678513.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Google.Apis/1.55.0": {
         "type": "package",
         "dependencies": {
@@ -2263,6 +2287,30 @@
         },
         "runtime": {
           "lib/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "Get_Hash_SHA1.online/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.Excel.Activities": "2.12.3",
+          "UiPath.Mail.Activities": "1.15.2",
+          "UiPath.System.Activities": "22.4.1",
+          "UiPath.UIAutomation.Activities": "22.4.5"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Get_Hash_SHA1 online_Library.dll": {},
+          "lib/net45/Get_Hash_SHA1 online_Library_Expressions_40196552.dll": {},
+          "lib/net45/Get_Hash_SHA1 online_Library_Expressions_56678513.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Google.Apis/1.55.0": {
@@ -4493,6 +4541,36 @@
         "documentformat.openxml.2.5.0.nupkg.sha512",
         "documentformat.openxml.nuspec",
         "lib/DocumentFormat.OpenXml.dll"
+      ]
+    },
+    "Get_Hash_SHA1.online/1.0.1": {
+      "sha512": "ieHrcSo5NHYKepeIRpgKaLlv0d3WhVltSZsNSLpvYvhCiNU9oHaT9SwP9QrUq5VL1m6hWXYKB9mDudow0Dy3FA==",
+      "type": "package",
+      "path": "get_hash_sha1.online/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "contentFiles/any/any/.objects/.metadata",
+        "contentFiles/any/any/.objects/.type",
+        "get_hash_sha1.online.1.0.1.nupkg.sha512",
+        "get_hash_sha1.online.nuspec",
+        "lib/net45/.project/design.json",
+        "lib/net45/.settings/Design/settings-5190454b.json",
+        "lib/net45/.settings/Design/settings-a1b2dac1.json",
+        "lib/net45/.settings/Design/settings-afad0842.json",
+        "lib/net45/.settings/Release/settings-1a5b880a.json",
+        "lib/net45/.settings/Release/settings-5190454b.json",
+        "lib/net45/.settings/Release/settings-590bb27b.json",
+        "lib/net45/.settings/Release/settings-9e9290da.json",
+        "lib/net45/.settings/Release/settings-a1b2dac1.json",
+        "lib/net45/.settings/Release/settings-afad0842.json",
+        "lib/net45/Get_Hash.xaml",
+        "lib/net45/Get_Hash_SHA1 online_Library.dll",
+        "lib/net45/Get_Hash_SHA1 online_Library_Expressions_40196552.dll",
+        "lib/net45/Get_Hash_SHA1 online_Library_Expressions_56678513.dll",
+        "lib/net45/bindings.json",
+        "lib/net45/bindings_v2.json",
+        "lib/net45/project.json",
+        "lib/net45/test.xaml"
       ]
     },
     "Google.Apis/1.55.0": {
@@ -8404,6 +8482,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "Get_Hash_SHA1.online >= 1.0.1 <= 1.0.1",
       "UiPath.Excel.Activities >= 2.12.3 <= 2.12.3",
       "UiPath.Mail.Activities >= 1.15.2 <= 1.15.2",
       "UiPath.System.Activities >= 22.4.1 <= 22.4.1",
@@ -8415,15 +8494,20 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "DataTable_Excel_EX",
-      "projectName": "DataTable_Excel_EX",
-      "projectPath": "C:\\Users\\lidorm\\Documents\\UiPath\\DataTable_Excel_EX\\.local",
+      "projectUniqueName": "Create_Sheets",
+      "projectName": "Create_Sheets",
+      "projectPath": "C:\\Users\\lidorm\\Documents\\uiPath\\DataTable_Excel_EX_yonatan\\process 2 - Creates_Output_File\\.local",
       "packagesPath": "C:\\Users\\lidorm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lidorm\\Documents\\UiPath\\DataTable_Excel_EX\\.local"
+      "outputPath": "C:\\Users\\lidorm\\Documents\\uiPath\\DataTable_Excel_EX_yonatan\\process 2 - Creates_Output_File\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
+          "Get_Hash_SHA1.online": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.1, 1.0.1]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",

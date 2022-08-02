@@ -1,8 +1,9 @@
 {
-  "name": "DataTable_Excel_EX",
-  "description": "",
+  "name": "Create_Sheets",
+  "description": "this process creates the output file,\r\nuses the data table extracted to excel file",
   "main": "Main.xaml",
   "dependencies": {
+    "Get_Hash_SHA1.online": "[1.0.1]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.1]",
@@ -46,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "403188be-5e43-4b5d-bfc9-a59132888bae",
+      "uniqueId": "6d0be5e0-9d3d-4713-a678-9dc121fb84b3",
       "input": [],
       "output": []
     }
